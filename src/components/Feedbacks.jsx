@@ -29,7 +29,8 @@ const FeedbackCard = ({
             <span className='blue-text-gradient'>@</span> {name}
           </p>
           <p className='mt-1 text-secondary text-[12px]'>
-            {designation} of {company}
+            {designation} {company}  
+            {/* add of later in the future  ionbetween desig and company */}
           </p>
         </div>
 
